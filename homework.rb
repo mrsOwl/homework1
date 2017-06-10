@@ -1,9 +1,9 @@
 VARIANT = 1
 
-def random_4_numbers 
-  rand(1000..10000)
+def random_4_numbers
+  rand(1000..10_000)
 end
 
-def generate 
+def generate
   "#{random_4_numbers}-#{random_4_numbers}-#{random_4_numbers}"
 end
